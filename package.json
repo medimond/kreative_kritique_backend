@@ -1,0 +1,27 @@
+{
+  "name": "kreative_kritique_backend",
+  "version": "1.0.0",
+  "description": "A new backend for KreativeKritique",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medimond/kreative_kritique_backend.git"
+  },
+  "author": "Megan Dimond",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/medimond/kreative_kritique_backend/issues"
+  },
+  "homepage": "https://github.com/medimond/kreative_kritique_backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.5"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
