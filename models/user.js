@@ -4,6 +4,7 @@ const userSchema = new mongoose.Schema({
   name: {
     type: String,
     required: true,
+    unique: true,
   },
   password: {
     type: String,
@@ -15,6 +16,7 @@ const userSchema = new mongoose.Schema({
   },
   about: {
     type: String,
+    default: "This user has not entered any information about themselves yet.",
   },
   signupDate: {
     type: Date,
